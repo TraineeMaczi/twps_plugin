@@ -1,0 +1,11 @@
+div.hello_h
+{
+	color:balck;
+	text-shadow:2px 2px #C0C0C0;
+	font-weight:bold;
+	text-align:center;
+	position:relative;
+	top:10px;
+	left:10px;
+	font-size:20px;	
+}

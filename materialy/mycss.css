@@ -1,0 +1,35 @@
+body
+        {
+                background-color:#cc9966;
+                border: 15px solid #F7CBA3;
+                border-radius:15px;
+                }
+p      {
+        border: 15px solid #F7CBA3;
+        font-family:cursive;
+        }
+table
+        {
+                border-style:dotted;
+                border-color:gray;
+                border-width:5px;
+                text-align:center;
+                margin:10px 10px 10px 10px;
+                padding:10px 10px 10px 10px;
+                background-color:khaki;
+                caption-side:top;
+                border-collapse:collapse;
+
+        }
+img
+        {
+        border:dotted white;
+        }
+
+table.t2 td
+        {
+        border-collapse:collapse;
+        border-style:solid;
+        border-color:white;
+        border-width:10px 10px 10px 10px;
+        }

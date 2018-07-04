@@ -1,0 +1,109 @@
+<?php
+/*
+Plugin Name:  TWPS Plugin
+Plugin URI:   http://twpsupport.cba.pl/
+Description:  Teacher WordPress Support Site Guide
+Version:      0.1
+Author:       Karolina Makowska
+Author URI:   http://twpsupport.cba.pl/
+License:      
+License URI:  
+Text Domain:  
+Domain Path:  
+*/
+
+//Chcia³bym za³adowac style
+add_action('wp_enqueue_scripts', 'StylePodstawowe');
+function StylePodstawowe()
+{
+    wp_enqueue_style('StylePodstawowe', esc_url(plugins_url('twps_plugin/css/StylePodstawowe.css')), array(), '1.0', 'all');
+}
+//
+
+//ten zestaw akcja + funkcja dodaj¹ zak³adkê //startowa
+add_action("admin_menu","twps_addMenu");
+function twps_addMenu()
+{
+    //to manage_options to jest jedna ze sta³ych dla tej matody
+    //nie do koñca wiem po co ale musi byc ¿eby by³o widaæ zak³adkê
+    add_menu_page("TWPS","TWPS","manage_options","twps-main","twps_startM");
+    add_submenu_page("twps-main","Mini Tools","Mini Tools","manage_options","twps-mini","twps_initMini" );
+    add_submenu_page("twps-main","Recommendations","Recommendations","manage_options","twps-recom","twps_initRecom" );
+    add_submenu_page("twps-main","For UMK","For UMK","manage_options","twps-umk","twps_initUMK");
+
+}
+//twps_startM to jest strona main menu
+//ta funkcja wyswietla co jest na str
+function twps_startM()
+{
+	StylePodstawowe();
+    echo '<div class="hello_h">Witaj w Panelu Zarz¹dzania</div>';
+	
+    echo '<div class="TestDiv">
+	W³¹cz Podpowiedzi </br>
+	Tu ma byæ przycisk ON/OFF
+	</div>';
+    /*echo '<div></div>';
+    echo '<div></div>';
+    echo '<div></div>';
+    echo '<div></div>';
+    */
+    
+    
+    /*
+    $xmlstr = <<<XML
+<?xml version='1.0' standalone='yes'?>
+ <button>
+        <text>Button A</text>
+</button>
+                        
+XML;
+    echo $xmlstr;
+    */
+    
+    // tu sobie  normalnie 
+    /*echo '
+    <div style="background:yellow">
+    <h1>H1</h1>
+    <p>Hello Html  </br>
+    Second Line </p>
+    </div>';
+    */
+    
+    // TO NIE DZIA£A JESZCZE
+    //jak zrobiæ ¿eby ca³y plik html wyœwietli³ 
+    /*readfile("/path/to/file"); lub echo file_get_contents("/path/to/file"); ale tu siê mo¿e 
+        wykraszowaæ*/
+    //file_get_content("myhtml.html");
+    
+    
+
+    
+}
+
+//twps_initMini to jest strona z mini dodatkami typu obecnosc
+function twps_initMini()
+{
+	StylePodstawowe();
+    echo '<div class="hello_h">Witaj w Mini Narzêdzia</div>';
+    
+}
+
+//twps_initRecom to jest stona zawierajaca rekomendacje 
+//sablonów i wtyczek
+function twps_initRecom()
+{
+	StylePodstawowe();
+    echo "Recommendations: Hi!";
+}
+
+//twps_initUMK to jest stona z przedmiotami robionymi pod umk np. szablon strony
+function twps_initUMK()
+{
+	StylePodstawowe();
+    echo "For UMK: Hi!";
+}
+
+?>
+
+

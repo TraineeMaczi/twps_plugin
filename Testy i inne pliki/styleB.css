@@ -1,0 +1,118 @@
+body
+{
+	background-color:#B0C4DE;
+}
+.GoButtonSmallDiv
+{
+font-size:14px;
+font-weight:bold;
+position:absolute;
+top:62px;
+left:40%;
+width:100px;
+}
+.GoButtonLargeDiv
+{
+font-size:14px;
+font-weight:bold;
+position:absolute;
+top:62px;
+left:45%;
+width:100px;
+}
+.InnerH
+{
+	line-height:5px;
+	font-weight:bold;
+}
+div.hello_h
+{
+	
+	color:balck;
+	text-shadow:2px 2px #C0C0C0;
+	font-weight:bold;
+	text-align:center;
+	position:relative;
+	top:10px;
+	left:10px;
+	right:10px;
+	font-size:20px;	
+	
+}
+
+/*O mnie student publikacje materiały*/
+
+.SmallDiv
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	color:black;
+	background-color:white;
+	width:520px;
+	height:90px;
+}
+.LargeDiv
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	color:black;
+	background-color:white;
+	width:1070px;
+	height:90px;
+
+}
+#OBudowa
+{
+	position:absolute;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:40px;
+	margin-bottom:0px;
+}
+#OMnie
+{
+	position:absolute;
+	left:50px;
+	right:50px;
+	top:165px;
+	
+}
+#DlaStudenta
+{
+	position:absolute;
+	left:50px;
+	right:50px;
+	top:270px;
+	
+}
+#Publikacje
+{
+	position:absolute;
+	left:50px;
+	right:50px;
+	top:375px;
+	
+}
+#Kontakt
+{
+	position:absolute;
+	left:50px;
+	right:50px;
+	top:485px;
+}
+#InneMate
+{
+	position:absolute;
+	left:600px;
+	right:50px;
+	top:485px;
+}
+
+
+
+
+

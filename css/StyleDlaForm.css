@@ -1,0 +1,86 @@
+div.hello_h
+{
+	color:balck;
+	text-shadow:2px 2px #C0C0C0;
+	font-weight:bold;
+	text-align:center;
+	position:relative;
+	top:10px;
+	left:10px;
+	font-size:20px;	
+}
+#PoleNaFotoProfilowe
+{
+	position:absolute;
+	margin-left:50%;
+	margin-top:3%;
+	
+}
+form.rightSiteForm
+{
+	position:absolute;
+	margin-left:50%;
+
+}
+form.leftSiteForm
+{
+	position:absolute;
+	margin-left:5%;
+
+}
+#TextFotoProfilowe
+{
+	position:absolute;
+	margin-left:50%;
+}
+#TextOSobie
+{
+	position:absolute;
+	margin-left:50%;
+	margin-top:9%;
+}
+#NapiszCosOSobie
+{
+	position:absolute;
+	margin-left:50%;
+	margin-top:10%;
+}
+p
+{
+	font-size:14px;
+}
+h2
+{
+	position:relative;
+	font-weight:bold;
+	margin-left:1%;
+	border-bottom:2px solid black;
+	padding-bottom:10px;
+	text-shadow:2px 2px #C0C0C0;
+	
+}
+#h2One
+{
+	margin-top:10px;
+}
+#h2Two
+{
+	margin-top:340px;
+}
+#PubFormTitle
+{
+	margin-top:50px;
+}
+#KontFormTitle
+{
+width:300px;	
+}
+#UniFormTitle
+{
+width:300px;
+	
+}
+#bigDIV
+{
+	margin-top:10px;
+}

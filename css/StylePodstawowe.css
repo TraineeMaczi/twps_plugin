@@ -1,0 +1,148 @@
+div.hello_h
+{
+	color:balck;
+	text-shadow:2px 2px #C0C0C0;
+	font-weight:bold;
+	text-align:center;
+	position:relative;
+	top:10px;
+	left:10px;
+	font-size:20px;	
+}
+#WlaczPodpowiedzi
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:55px; 
+	left:50px;
+	color:black;
+	background-color:white;
+	width:500px;
+	height:70px;
+}
+#ZbudujZeMnaStrone
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:55px; 
+	left:620px;
+	color:black;
+	background-color:white;
+	width:500px;
+	height:70px;
+}
+button.ON_OFF_B
+{
+font-size:14px;
+font-weight:bold;
+position:relative;
+top:13px;	
+}
+span.TextInDivH
+{
+	position:relative;
+	font-weight:bold;
+	top:3px;
+}
+#BKartaOdnosnika1
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:150px; 
+	left:50px;
+	color:black;
+	background-color:white;
+	width:1070px;
+	height:70px;
+}
+#BKartaOdnosnika2
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:250px; 
+	left:50px;
+	color:black;
+	background-color:white;
+	width:1070px;
+	height:70px;
+}
+#BKartaOdnosnika3
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:350px; 
+	left:50px;
+	color:black;
+	background-color:white;
+	width:1070px;
+	height:70px;
+}
+#OMnie
+{
+	font-size:16px;
+	border-style:solid;
+	border-color:#D3D3D3;
+	text-align:center;
+	position:absolute;
+	top:450px; 
+	left:50px;
+	color:black;
+	background-color:white;
+	width:1070px;
+	height:100px;
+}
+button.OdnosnikMainLeft
+{
+font-size:14px;
+font-weight:bold;
+position:absolute;
+left:360px;
+top:65px;	
+}
+button.OdnosnikMainRight
+{
+font-size:14px;
+font-weight:bold;
+position:absolute;
+left:560px;
+top:65px;	
+}
+#textOMnie
+{
+	font-style:italic;
+	position:relative;
+	font-size:12px;
+	text-align:center;
+	top:3px;
+}
+span.NormalText
+{
+	position:relative;
+	top:5px;
+	font-size:14px;
+}
+button.OdnosnikMainLeftZakladka
+{
+	font-size:12px;
+	font-weight:bold;
+	position:absolute;
+	width:200px;
+	height:20px;
+	top:45px;
+	left:700px;
+}

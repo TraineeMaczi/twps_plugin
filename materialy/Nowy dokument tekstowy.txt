@@ -1,0 +1,4 @@
+O hakach
+https://code.tutsplus.com/tutorials/adding-custom-hooks-in-wordpress-custom-actions--cms-26454
+Jak zrobiæ popup
+https://www.w3schools.com/howto/howto_js_popup.asp
